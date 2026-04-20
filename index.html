@@ -34,6 +34,21 @@
 			background-repeat: no-repeat, no-repeat !important;
 		}
 		table tr:nth-child(even) { background-color: #ffe0d0; }
+		/* Rodapé tipo aidedd: etiquetas com aparência de texto, links para # */
+		.col1 .description a {
+			color: #b80000;
+			text-decoration: none;
+		}
+		.col1 .description a:hover {
+			border-bottom: 1px dashed #d80000;
+		}
+		.col1 .source a {
+			color: #000;
+			text-decoration: none;
+		}
+		.col1 .source a:hover {
+			border-bottom: 1px dashed #333;
+		}
 	</style>
 	<title>Homunculus Servant</title>
 	<link rel="icon" href="https://www.aidedd.org/images/favicon-32.png" sizes="32x32">
@@ -77,8 +92,15 @@
 				</div>
 			</div>
 			<div class="orange"></div>
-			<div class="description">Homunculus Servant — ficha de referência (conteúdo personalizado).</div>
-			<div class="source">D&amp;D 5e — Artificer companion</div>
+			<div class="description">See the <a href="#">Homunculus Servant artificer&rsquo;s infusion</a>.<br></div>
+			<div class="source"><a href="#">Rules (Tasha&rsquo;s Cauldron of Everything)</a></div><br>
+			<div class="trad noprint"><a href="#">Serviteur homoncule</a></div>
+			<ol itemscope itemtype="http://schema.org/BreadcrumbList">
+				<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+					<a itemprop="item" href="#"><span itemprop="name">DnD 5e Monsters</span></a> › Homunculus Servant
+					<meta itemprop="position" content="1">
+				</li>
+			</ol>
 		</div>
 	</div>
 </body>
