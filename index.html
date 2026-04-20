@@ -5,30 +5,81 @@
 	<meta name="viewport" content="initial-scale=1">
 	<link rel="stylesheet" href="./dnd-commun/styleFiche14.css?v=1">
 	<style>
-		.col	{background:white url("images/fond-mm.jpg") repeat}
-		table tr:nth-child(even) {background-color:#ffe0d0}		/* laisser ici pour table comme cheval de guerre */
+		/* Fundo: sem mosaico “listrado”; ambiente mais preenchido */
+		body {
+			background:
+				radial-gradient(ellipse 120% 80% at 50% 0%, #3d3028 0%, transparent 50%),
+				linear-gradient(165deg, #1a1612 0%, #0d0b09 40%, #151210 100%);
+			background-attachment: fixed;
+		}
+		.col {
+			background: linear-gradient(145deg, #fbf7f0 0%, #f2e8dc 55%, #ebe2d4 100%);
+			box-shadow: 0 16px 48px rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.35);
+			border-radius: 6px;
+			border: 1px solid rgba(60, 40, 30, 0.12);
+			width: min(1000px, calc(100% - 32px));
+			margin-left: auto;
+			margin-right: auto;
+			padding: 8px 0 28px;
+		}
+		.col1 {
+			max-width: 520px;
+			margin: 0 auto;
+		}
+		/* Bloco da ficha: textura suave em vez de camadas retas estranhas */
+		.jaune {
+			background-image:
+				linear-gradient(180deg, rgba(255, 255, 255, 0.35) 0%, transparent 28%),
+				linear-gradient(160deg, #fffaf3 0%, #fdf1dc 100%) !important;
+			background-repeat: no-repeat, no-repeat !important;
+		}
+		table tr:nth-child(even) { background-color: #ffe0d0; }
 	</style>
-	<title>Homunculus Servant &raquo; DnD 5e Monsters</title>
-	<link rel='alternate' href='https://www.aidedd.org/dnd/monstres.php?vf=serviteur-homoncule' hreflang='fr'>
-	<link rel='alternate' href='https://www.aidedd.org/dnd/monstres.php?vo=homunculus-servant' hreflang='en'>
-	<link rel='alternate' href='https://www.aidedd.org/dnd/monstres.php?vo=homunculus-servant' hreflang='x-default'>
-	<link rel='canonical' href='https://www.aidedd.org/dnd/monstres.php?vo=homunculus-servant'>
-	<link rel='icon' href='https://www.aidedd.org/images/favicon-32.png' sizes='32x32'>
-	<link rel='icon' href='https://www.aidedd.org/images/favicon-48.png' sizes='48x48'>
-	<link rel='icon' href='https://www.aidedd.org/images/favicon-96.png' sizes='96x96'>
-	<link rel='apple-touch-icon' href='https://www.aidedd.org/images/favicon-180.png' sizes='180x180'>
+	<title>Homunculus Servant</title>
+	<link rel="icon" href="https://www.aidedd.org/images/favicon-32.png" sizes="32x32">
 </head>
 <body>
-	<div class='col'>
-		<div class='col1'>
-			<div class='orange'></div><div class='jaune'><h1>Homunculus Servant</h1><div class='sansSerif'><div class='type'>Tiny construct, -</div><div><svg><polyline points='0,0 360,2.5 0,5' style="fill:#922610;stroke:#922610;"></polyline></svg></div><div class='red'><strong>Armor Class</strong> 13 (natural armor)<br><strong>Hit Points</strong> 1 + your Intelligence modifier + your artificer level (the homunculus has a number of Hit Dice [d4s] equal to your artificer level)<br><strong>Speed</strong> 20 ft., fly 30 ft.<div><svg><polyline points='0,0 360,2.5 0,5' style="fill:#922610;stroke:#922610;"></polyline></svg></div><div class='carac'><strong>STR</strong><br>4 (-3)</div><div class='carac'><strong>DEX</strong><br>15 (+2)</div><div class='carac'><strong>CON</strong><br>12 (+1)</div><div class='carac'><strong>INT</strong><br>10 (+0)</div><div class='carac'><strong>WIS</strong><br>10 (+0)</div><div class='carac'><strong>CHA</strong><br>7 (-2)</div><div><svg><polyline points='0,0 360,2.5 0,5' style="fill:#922610;stroke:#922610;"></polyline></svg></div><strong>Saving Throws</strong> Dex +2 plus PB<br><strong>Skills</strong> Perception +0 plus PB x 2, Stealth +2 plus PB<br><strong>Damage Immunities</strong> poison<br><strong>Condition Immunities</strong> exhaustion, poisoned<br><strong>Senses</strong> darkvision 60 ft., passive Perception 10 + (PB x 2)<br><strong>Languages</strong> understands the languages you speak<br><strong>Challenge</strong> - &nbsp; &nbsp; <strong>Proficiency Bonus</strong> equals your bonus</div><div><svg><polyline points='0,0 360,2.5 0,5' style="fill:#922610;stroke:#922610;"></polyline></svg></div><p><strong><em>Evasion</em></strong>. If the homunculus is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. It can't use this trait if it's incapacitated.</p><div class='rub'>Actions</div><p><strong><em>Force Strike</em></strong>. <em>Ranged Weapon Attack</em>: your spell attack modifier to hit, range 30 ft., one target you can see. <em>Hit</em>: 1d4 + PB force damage.</p><div class='rub'>Reactions</div><p><strong><em>Channel Magic</em></strong>. The homunculus delivers a spell you cast that has a range of touch. The homunculus must be within 120 feet of you.</p></div></div><div class='orange'></div><div class='description'>See the Homunculus Servant artificer's infusion.<br></div><div class='source'>Rules (Tasha´s Cauldron of Everything)</div><br><div class='trad noprint'><a href='https://www.aidedd.org/dnd/monstres.php?vf=serviteur-homoncule'>Serviteur homoncule</a></div>
-			<ol itemscope itemtype="http://schema.org/BreadcrumbList">
-				<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-				 	<a itemprop="item" href="https://www.aidedd.org/dnd-filters/monsters.php"><span itemprop="name">DnD 5e Monsters</span></a> › Homunculus Servant				    <meta itemprop="position" content="1">
-				</li>
-			</ol>
-		</div><div class='col2'>
+	<div class="col">
+		<div class="col1">
+			<div class="orange"></div>
+			<div class="jaune">
+				<h1>Homunculus Servant</h1>
+				<div class="sansSerif">
+					<div class="type">Tiny Construct, Neutral</div>
+					<div><svg><polyline points="0,0 360,2.5 0,5" style="fill:#922610;stroke:#922610;"></polyline></svg></div>
+					<div class="red">
+						<strong>Armor Class</strong> 13<br>
+						<strong>Hit Points</strong> 5 + 5 per artificer level (the homunculus has a number of Hit Dice [d4s] equal to your artificer level)<br>
+						<strong>Speed</strong> 20 ft., fly 30 ft.
+						<div><svg><polyline points="0,0 360,2.5 0,5" style="fill:#922610;stroke:#922610;"></polyline></svg></div>
+						<div class="carac"><strong>STR</strong><br><span style="font-size:1.05rem;">(Mod/Save)<br>4 (−3)</span></div>
+						<div class="carac"><strong>DEX</strong><br><span style="font-size:1.05rem;">(Mod/Save)<br>15 (+2)</span></div>
+						<div class="carac"><strong>CON</strong><br><span style="font-size:1.05rem;">(Mod/Save)<br>12 (+1)</span></div>
+						<div class="carac"><strong>INT</strong><br><span style="font-size:1.05rem;">(Mod/Save)<br>10 (+0)</span></div>
+						<div class="carac"><strong>WIS</strong><br><span style="font-size:1.05rem;">(Mod/Save)<br>10 (+0)</span></div>
+						<div class="carac"><strong>CHA</strong><br><span style="font-size:1.05rem;">(Mod/Save)<br>10 (+0)</span></div>
+						<div><svg><polyline points="0,0 360,2.5 0,5" style="fill:#922610;stroke:#922610;"></polyline></svg></div>
+						<strong>Immunities</strong> Poison<br>
+						<strong>Condition Immunities</strong> charmed, exhaustion, poisoned<br>
+						<strong>Senses</strong> darkvision 60 ft.; passive Perception 10 + (your proficiency bonus × 2)<br>
+						<strong>Languages</strong> understands the languages of its creator but can’t speak; telepathy (works only with you)<br>
+						<strong>Challenge Rating</strong> None (XP 0; PB equals your proficiency bonus)
 					</div>
+					<div><svg><polyline points="0,0 360,2.5 0,5" style="fill:#922610;stroke:#922610;"></polyline></svg></div>
+					<div class="rub">Traits</div>
+					<p><strong><em>Evasion</em></strong>. If the homunculus is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the homunculus instead takes no damage if it succeeds on the save and only half damage if it fails. It can’t use this trait if it has the incapacitated condition.</p>
+					<p><strong><em>Telepathic Bond</em></strong>. While the homunculus is on the same plane of existence as its master, it can magically convey what it senses to its master, and the two can communicate telepathically.</p>
+					<p><strong><em>Magic Bond</em></strong>. Add your proficiency bonus (PB) to any ability check or saving throw the homunculus makes.</p>
+					<div class="rub">Actions</div>
+					<p><strong><em>Force Strike</em></strong>. <em>Melee or Ranged Attack Roll</em>: bonus equals your spell attack modifier, reach 5 ft. or range 30 ft. <em>Hit</em>: 1d6 + your spell attack modifier force damage.</p>
+					<div class="rub">Reactions</div>
+					<p><strong><em>Channel Magic</em></strong>. <strong>Trigger:</strong> You cast a spell that has a range of touch while the homunculus is within 120 feet of you. <strong>Response:</strong> The homunculus delivers the spell through its touch.</p>
+				</div>
+			</div>
+			<div class="orange"></div>
+			<div class="description">Homunculus Servant — ficha de referência (conteúdo personalizado).</div>
+			<div class="source">D&amp;D 5e — Artificer companion</div>
+		</div>
 	</div>
 </body>
 </html>
